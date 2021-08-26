@@ -15,4 +15,4 @@ permalink: /about/
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rcxiao@ncsu.edu](mailto:email@domain.com)
