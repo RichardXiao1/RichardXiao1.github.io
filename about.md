@@ -10,7 +10,7 @@ Some information about you!
 
 ### More Information
 *I was born in Gainesville, Florida and moved to Oregon shortly. Around 2002, my family and I moved to North Carolina where I have lived here most of my life.*
-[](WIN_20190108_17_07_45_Pro.png)
+![](WIN_20190108_17_07_45_Pro.png)
 
 
 
