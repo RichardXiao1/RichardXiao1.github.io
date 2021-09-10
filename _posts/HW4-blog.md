@@ -18,6 +18,13 @@ up functions and help forums to broaden and develop my understanding of
 R, as well as reading my notes/ watching lectures. Even today, I am
 still learning and developing my knowledge about R.
 
+getwd
+
 ## R Markdown output
 
+``` r
+plot(iris)
+```
+
 ![](C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts/HW4-blog_files/figure-gfm/iris-1.png)<!-- -->
+<img src="C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts/HW4-blog_files/figure-gfm/iris-1.png" width="25%" style="display: block; margin: auto;" />

@@ -10,6 +10,9 @@ library(tibble)
 rmarkdown::render("HW4 blog.Rmd", output_format = github_document(
   keep_html = FALSE
 ), output_dir = "C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts", output_options = list(toc = TRUE , toc_depth = 3, number_sections = TRUE, df_print = "tibble")) 
+library(knitr)
+knitr::opts_chunk$set(fig.path = "C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/images")
+
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -25,10 +28,11 @@ getwd
 ```{r iris, echo = TRUE}
 plot(iris)
 ```
+```{r image, echo=FALSE, out.width = "25%", fig.align="center" }
+knitr::include_graphics("C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts/HW4-blog_files/figure-gfm/iris-1.png")
 
-
-```{r pressure, echo=FALSE}
-library(knitr)
-knitr::opts_chunk$set(fig.path = "C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/images")
 ```
+
+
+
 
