@@ -18,7 +18,7 @@ up functions and help forums to broaden and develop my understanding of
 R, as well as reading my notes/ watching lectures. Even today, I am
 still learning and developing my knowledge about R.
 
-getwd
+
 
 ## R Markdown output
 
