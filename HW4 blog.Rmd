@@ -9,11 +9,16 @@ library(rmarkdown)
 library(tibble)
 rmarkdown::render("HW4 blog.Rmd", output_format = github_document(html_preview = FALSE,
   keep_html = FALSE
-), output_dir = "C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts", output_options = list(toc = TRUE , toc_depth = 3, number_sections = TRUE, keep_html = FALSE, df_print = "tibble")) 
-library(knitr)
-knitr::opts_chunk$set(fig.path = "C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/images")
+), output_dir = "_posts", output_options = list(toc = TRUE , toc_depth = 3, number_sections = TRUE, keep_html = FALSE, df_print = "tibble")) 
+
 
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r setup 2, include=FALSE, eval=TRUE}
+library(knitr)
+knitr::opts_chunk$set(fig.path = "../images/")
 ```
 
 ## Blog Post
