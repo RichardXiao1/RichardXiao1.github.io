@@ -1,0 +1,37 @@
+---
+title: "Programming Background"
+author: "Richard Xiao"
+date: "9/6/2021"
+---
+
+```{r include=FALSE, eval=FALSE}
+library(rmarkdown)
+library(tibble)
+rmarkdown::render("HW4 blog.Rmd", output_format = "github_document", output_dir = "_posts", output_options = list(toc = TRUE , toc_depth = 3, number_sections = TRUE, html_preview = FALSE, df_print = "tibble")) 
+
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r setup2, eval=TRUE}
+library(knitr)
+knitr::opts_chunk$set(fig.path = "../images/")
+```
+
+## Blog Post
+
+I think R has a lot of similarities and differences to Python, which is the other programming language I have experience with. Both have similar syntax with each other and can load packages as well as producing output such as graphs. However, R is used mainly for statistical analysis whereas Python gives a more general approach to data science. The good things that I miss about Python is the number of support libraries I have access to such as NumPy and how Python to me is easier to grasp than R. Like any other programming language, R requires extensive amount of time and practice to understand. In my other classes, I had to search up functions and help forums to broaden and develop my understanding of R, as well as reading my notes/ watching lectures. Even today, I am still learning and developing my knowledge about R.
+
+
+
+## R Markdown output
+
+```{r iris, echo = TRUE}
+plot(iris)
+```
+
+
+
+
+
