@@ -4,19 +4,17 @@ author: "Richard Xiao"
 date: "9/6/2021"
 ---
 
-```{r setup, include=FALSE, eval=FALSE}
+```{r include=FALSE, eval=FALSE}
 library(rmarkdown)
 library(tibble)
-rmarkdown::render("HW4 blog.Rmd", output_format = github_document(html_preview = FALSE,
-  keep_html = FALSE
-), output_dir = "_posts", output_options = list(toc = TRUE , toc_depth = 3, number_sections = TRUE, keep_html = FALSE, df_print = "tibble")) 
+rmarkdown::render("HW4 blog.Rmd", output_format = "github_document", output_dir = "_posts", output_options = list(toc = TRUE , toc_depth = 3, number_sections = TRUE, html_preview = FALSE, df_print = "tibble")) 
 
 
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-```{r setup 2, include=FALSE, eval=TRUE}
+```{r setup2, eval=TRUE}
 library(knitr)
 knitr::opts_chunk$set(fig.path = "../images/")
 ```
@@ -32,10 +30,7 @@ I think R has a lot of similarities and differences to Python, which is the othe
 ```{r iris, echo = TRUE}
 plot(iris)
 ```
-```{r image, echo=FALSE, out.width = "25%", fig.align="center" }
-knitr::include_graphics("C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts/HW4-blog_files/figure-gfm/iris-1.png")
 
-```
 
 
 

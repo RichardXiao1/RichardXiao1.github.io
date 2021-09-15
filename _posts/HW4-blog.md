@@ -3,7 +3,15 @@ Programming Background
 Richard Xiao
 9/6/2021
 
-## Blog Post
+  - [0.1 Blog Post](#blog-post)
+  - [0.2 R Markdown output](#r-markdown-output)
+
+``` r
+library(knitr)
+knitr::opts_chunk$set(fig.path = "../images/")
+```
+
+## 0.1 Blog Post
 
 I think R has a lot of similarities and differences to Python, which is
 the other programming language I have experience with. Both have similar
@@ -18,11 +26,10 @@ up functions and help forums to broaden and develop my understanding of
 R, as well as reading my notes/ watching lectures. Even today, I am
 still learning and developing my knowledge about R.
 
-## R Markdown output
+## 0.2 R Markdown output
 
 ``` r
 plot(iris)
 ```
 
-![](C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts/HW4-blog_files/figure-gfm/iris-1.png)<!-- -->
-<img src="C:/Users/rcxia/OneDrive/Documents/ST558githubblogrepo/RichardXiao1.github.io/_posts/HW4-blog_files/figure-gfm/iris-1.png" width="25%" style="display: block; margin: auto;" />
+![](../images/iris-1.png)<!-- -->
