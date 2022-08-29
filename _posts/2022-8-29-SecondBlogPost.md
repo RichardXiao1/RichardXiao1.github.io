@@ -1,7 +1,7 @@
 Programming Background
 ================
 Richard Xiao
-9/6/2021
+
 
   - [0.1 Blog Post](#blog-post)
   - [0.2 R Markdown output](#r-markdown-output)
