@@ -3,8 +3,8 @@ layout: page
 title: About myself
 permalink: /about/
 ---
-1. I am 6 ft 5 inches
-2. Like playing tennis and ping pong.
+1. I am 6 ft 6 inches
+2. enjoy playing racket sports such as tennis, ping pong and badminton.
 3. In my spare time, I like to watch shows, movies and play games.
 
 ### More Information
