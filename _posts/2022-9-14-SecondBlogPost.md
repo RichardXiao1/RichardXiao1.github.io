@@ -18,8 +18,3 @@ Even though I am satisfied with how my project turned out, there are some things
 
 
 [Project 2](https://github.com/RichardXiao1/RichardXiao1.github.io.git/_posts/project1.html)
-``` r
-plot(iris)
-```
-
-![](../images/iris-1.png)<!-- -->
