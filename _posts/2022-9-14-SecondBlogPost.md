@@ -17,4 +17,4 @@ Even though I am satisfied with how my project turned out, there are some things
 ## 0.2 Project Link
 
 
-[Project 2](https://github.com/RichardXiao1/RichardXiao1.github.io/project1.html)
+[Project 1](https://github.com/RichardXiao1/RichardXiao1.github.io/project1.html)
