@@ -18,7 +18,7 @@ In our analysis, we noticed that for the contingency table for diet and cuisine,
 
 
 
-## 02. Project Links
+## 02. Project Links to see
 
 [github pages](https://branticus71.github.io/Project-2-Group-Q/)
 
